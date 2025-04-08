@@ -18,7 +18,8 @@ Xây dựng hệ thống **chatbot nội bộ thông minh**, hỗ trợ nhân vi
 | **System**       | Python, API sẽ dùng FastAPI                 |
 
 > Ghi chú: Có thể chạy bằng CPU nếu dùng mô hình GGUF quantized (Q4_K_M), tuy nhiên tốc độ phản hồi sẽ chậm hơn so với dùng GPU.
-> Với cấu hình này, tương lai sắp tới, chúng ta có thể xây dựng hệ thống AI API cho hệ thống với nhiều chức năng:  
+
+> Với cấu hình như yêu cầu, tương lai sắp tới, chúng ta có thể xây dựng hệ thống AI API cho hệ thống với nhiều chức năng:  
 
     - Nhận diện, so sánh hoặc các tác vụ liên quan hình ảnh
     - Speech to text, recap meeting...
