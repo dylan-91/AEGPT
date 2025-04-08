@@ -58,9 +58,19 @@ Xây dựng hệ thống **chatbot nội bộ thông minh**, hỗ trợ nhân vi
 ---
 
 ## 5. Luồng xử lý thông minh (RAG hai tầng)
-
-```mermaid
 flowchart TD
     A[Người dùng đặt câu hỏi] --> B[Tìm vector gần nhất trong Chroma]
     B --> |score > 0.7| C[Sử dụng Modelfile 2: Trả lời có context]
     B --> |score < 0.7| D[Sử dụng Modelfile 1: Trả lời chung]
+
+## 6. Thời gian triển khai (ước tính)
+
+### Chi tiết thời gian theo giai đoạn:
+
+| Giai đoạn                                | Công việc cụ thể                                             | Thời gian ước tính |
+|------------------------------------------|--------------------------------------------------------------|--------------------|
+| **Giai đoạn 1**: Cài đặt môi trường      | Cài đặt Ollama, mô hình Mistral, thư viện embedding          | 1 ngày             |
+| **Giai đoạn 2**: Xử lý dữ liệu nội bộ    | Chia nhỏ dữ liệu, tạo embedding, lưu trữ vào ChromaDB        | 2–3 ngày           |
+| **Giai đoạn 3**: Xây dựng API            | Xử lý truy vấn, lọc vector theo trọng số, kết nối với Ollama | 2 ngày             |
+| **Giai đoạn 4**: Tích hợp giao diện      | Tạo giao diện web, gọi API backend, hiển thị trả lời         | 1–2 ngày           |
+|                                          | **Tổng thời gian triển khai**                                | **6–8 ngày làm việc** |
