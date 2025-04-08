@@ -10,7 +10,7 @@ Xây dựng hệ thống **chatbot nội bộ thông minh**, hỗ trợ nhân vi
 
 | Hạng mục         | Cấu hình khuyến nghị                        |
 |------------------|---------------------------------------------|
-| **CPU**          | Intel i7 hoặc Ryzen 7 (4 cores trở lên)     |
+| **CPU**          | (4 cores trở lên)     |
 | **RAM**          | Tối thiểu 16GB                              |
 | **GPU**          | 12GB (ưu tiên ≥ 16GB VRAM) |
 | **Ổ cứng**       | SSD ≥ 512GB                                 |
