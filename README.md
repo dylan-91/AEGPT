@@ -15,7 +15,7 @@ Xây dựng hệ thống **chatbot nội bộ thông minh**, hỗ trợ nhân vi
 | **GPU**          | 12GB (ưu tiên ≥ 16GB VRAM) |
 | **Ổ cứng**       | SSD ≥ 512GB                                 |
 | **Hệ điều hành** | Windows        |
-| **System**       | Python, API sẽ dùng FastAPI                 |
+| **System**       | Python, API sẽ dùng Flask                 |
 
 > Ghi chú: Có thể chạy bằng CPU nếu dùng mô hình GGUF quantized (Q4_K_M), tuy nhiên tốc độ phản hồi sẽ chậm hơn so với dùng GPU.
 
@@ -54,7 +54,7 @@ Xây dựng hệ thống **chatbot nội bộ thông minh**, hỗ trợ nhân vi
 | **Vector Store** | [ChromaDB](https://www.trychroma.com)              |
 | **Embedding Model** | `sentence-transformers` (ViT5 hoặc multilingual) |
 | **Truy vấn thông minh** | Semantic search + lọc theo trọng số          |
-| **Frontend**   | Web app: React, .NET MVC, hoặc Flask (tuỳ chọn)        |
+| **Frontend**   | Web app: .NET MVC (local web đã có)        |
 | **Backend**    | Python (REST API tích hợp Ollama và ChromaDB)          |
 
 ---
