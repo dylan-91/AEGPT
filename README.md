@@ -48,7 +48,7 @@ Xây dựng hệ thống **chatbot nội bộ thông minh**, hỗ trợ nhân vi
 
 | Thành phần     | Công nghệ sử dụng                                       |
 |----------------|--------------------------------------------------------|
-| **LLM Model**  | Gemma:7b or Mistral 7B (định dạng GGUF, quantized Q4_K_M) , đã ddupwcj Fine Tuning         |
+| **LLM Model**  | Gemma:7b or Mistral 7B (định dạng GGUF, quantized Q4_K_M) , đã Fine Tuning         |
 | **Runtime**    | [Ollama](https://ollama.com)                           |
 | **Vector Store** | [ChromaDB](https://www.trychroma.com)              |
 | **Embedding Model** | `sentence-transformers` (ViT5 hoặc multilingual) |
